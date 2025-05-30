@@ -1,3 +1,5 @@
+MOVE TO LINE NO 66 FOR NOW
+
 OVERALL:
 | Layer    | Stack                        |
 | -------- | ---------------------------- |
@@ -63,7 +65,7 @@ PostHog/Mixpanel
 Grafana + Prometheus
 API gateway and service discovery (if scaling massively)
 
-TO BEGIN WITH: 
+                                                                                TO BEGIN WITH: 
 AWS (Amazon Web Services)
 🔧 For hosting servers, storing media (S3), deploying containers (ECS/EKS), and using scalable infrastructure.
 
@@ -87,6 +89,18 @@ OAuth 2.0 Integration
 
 OpenAI API (or HuggingFace Transformers)
 🧠 For AI features like generating captions, summarizing messages, auto-replies, and assisting in post creation.
+
+| Tech           | Analogy                      | Responsibility                                |
+| -------------- | ---------------------------- | --------------------------------------------- |
+| AWS            | 🏢 The building              | Hosting everything (servers, files, security) |
+| Microservices  | 🧑‍💼 Department rooms       | Split functionalities into modular services   |
+| Docker         | 📦 Shipping containers       | Portable, isolated runtime for services       |
+| MongoDB Atlas  | 📚 Filing room               | Stores user data, posts, logs                 |
+| Redis + BullMQ | ⏱ To-do whiteboard scheduler | Handles timed/delayed tasks and queues        |
+| GitHub Actions | 🚇 Subway to production      | Auto-deploy your latest code                  |
+| OAuth 2.0      | 🛂 Passport control          | Secure access to user social media accounts   |
+| OpenAI API     | 🤖 AI content assistant      | Helps users write creative content fast       |
+
 
 
 
